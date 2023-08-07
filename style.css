@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",  monospace;
+}
+
+
+
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #3333; 
+    color: white;
+    
+
+}
+
+.navbar{
+    margin: 15px 15px;
+    font-size: 1.5rem;
+    padding-left: 75px;
+}
+
+/* .navbarlinks ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+
+/* .navbarlinks li{
+    list-style-type: none;
+}
+
+.navbarlinks li a{
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+} */
+
+/* #one{
+    padding: 15px 15px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000;
+    border-radius: 15px;
+    border: 2px solid red;
+} */
+
+.main h1{
+    font-size: 3rem;
+    align-items: center;
+    font-weight: bolder;
+    margin: 105px 30px 19px 108px;
+    
+}
+
+.main{
+    display: flex;
+}
+
+.pic img{
+    margin: 15px 30px 19px 108px;
+}
+
+.content p {
+    margin: 24px 58px 50px 100px;
+}
+
+.content a{
+    margin: 24px 58px 50px 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: green;
+    /* cursor: pointer; */
+
+}
+
+.content img{
+    margin: 24px 58px 50px 100px;
+    width: 70%;
+
+}
+
+ul{
+    list-style: none;
+    /* background: yellow; */
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 4.0rem;
+}
+
+ul li ul.dropdown li{
+    display: block;
+    font-size: 5px;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #000;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+
+}
+
+ul li a :hover{
+    background: #112C66;
+    color: #fff;
+    
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* media queries for desktop */
+
+/* .hamsburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+@media(max-width: 768px){
+    .hamsburger{
+        display: block;
+    }
+
+    .hamsburger.active.bar:nth-last-child(5){
+        opacity: 0;
+    }
+
+    .hamsburger.active.bar:nth-last-child(4){
+        transform: translateY(8px) rotate(45deg)
+    }
+
+    .hamsburger.active.bar:nth-last-child(3){
+        transform: translateY(-8px) rotate(-45deg)
+    }
+
+    .hamsburger.active.bar:nth-last-child(2){
+        transform: translateY(5px) rotate(90deg)
+    }
+
+    .hamsburger.active.bar:nth-last-child(2){
+        transform: translateY(5-px) rotate(-90deg)
+    }
+
+    .navbar{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-bar li{
+        margin: 16px 0;
+    }
+
+    .nav-bar.active{
+        left: 0;
+    }
+
+
+
+} */
+   
